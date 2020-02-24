@@ -1,0 +1,30 @@
+body {
+  background-color: white;
+  font-family: Arial;
+}
+div {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  margin: 2px;
+  background-color: white;
+  width: 200px;
+  height: 200px;
+ /* border: ;   */
+}
+p {
+  position: absolute;
+  background: white;
+   bottom: -1em;
+  /*border-top: ;
+  border-right: ;
+  padding: ; */
+  margin-right: -2px;
+  font-size: 10pt;
+}
+img {
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}

@@ -1,0 +1,133 @@
+/* STYLE YOUR SHAPES AND APPLY ANIMATIONS HERE */
+.box {
+  border-radius: 5%;
+  box-shadow: 10px 10px 20px 10px black
+}
+.box1 {
+  width: 400px;
+  height: 400px;
+  background: white;
+  animation: rotate 15s reverse infinite;
+}
+.box2 {
+  width: 300px;
+  height: 300px;
+  background: darkred;
+  animation: rotate 12s infinite;
+}
+
+.box3 {
+  width: 200px;
+  height: 200px;
+  background: white;
+  animation: roatate 9s infinite;
+}
+
+.box4 {
+  width: 100px;
+  height: 100px;
+  background: darkred;
+  animation: rotate 6s infinite;
+}
+.box5 {
+  width: 50px;
+  height: 50px;
+  background: white;
+  animation: rotate 3s infinite;
+}
+
+/* STYLE YOUR SHAPES AND APPLY ANIMATIONS ABOVE */
+
+/* CREATE AND EDIT ANIMATIONS BELOW */
+/* https://css-tricks.com/snippets/css/keyframe-animation-syntax/ */
+
+@keyframes rotate {
+    0%   { transform: rotate(0deg);}
+    100% { transform: rotate(359.99deg);}
+}
+
+@keyframes fade {
+    0%   {opacity: 1;}
+    50%  {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes grow {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(2); }
+  100% { transform: scale(1); }
+}
+
+@keyframes shrink {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(.5); }
+  100% { transform: scale(1); }
+}
+
+@keyframes right {
+  0%   { transform: translateX(0); }
+  50%  { transform: translateX(150px); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes left {
+  0%   { transform: translateX(0); }
+  50%  { transform: translateX(-150px); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes up {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(150px); }
+  100% { transform: translateY(0); }
+}
+
+@keyframes down {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-150px); }
+  100% { transform: translateY(0); }
+}
+
+@keyframes rainbow {
+  0%  { background: red; }
+  17% { background: orange; }
+  33% { background: yellow; }
+  50% { background: green; }
+  66% { background: blue; }
+  83% { background: purple; }
+  100% { background: red; }
+}
+
+/* CREATE AND ALTER ANIMATIONS ABOVE */
+
+/* HOW ABOUT AN ANIMATION ON MOUSE HOVER? */
+/* DELETE THE COMMENTS BELOW TO ACTIVATE HOVER ANIMATIONS*/
+
+text-align:center 
+   .box1:hover{ animation: down 3s infinite; }
+   .box2:hover{ animation: left 2s infinite; }
+   .box3:hover{ animation: up 1s infinite; } */
+
+/* APPLY HOVER ANIMATIONS ABOVE */
+
+/*
+DANGER - ALTER AT YOUR OWN RISK
+ADVANCED DEVELOPERS ONLY
+*/
+
+body, .container {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

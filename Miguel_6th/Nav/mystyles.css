@@ -1,0 +1,44 @@
+/* Add a background color to the top navigation */
+.topnav {
+  overflow: hidden;
+  background-color:cadetblue;
+  text-align:center;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+padding: 10 px;
+  color:white;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color:black;
+  
+}
+* {
+  box-sizing: border-box;
+}
+/* Give your header a background color */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background-color:crimson;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+  text-align:center;
+  background-color:mediumseagreen;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+div {
+  border-color: black;
+  border: 10px solid;
+}

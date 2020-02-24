@@ -1,0 +1,44 @@
+section {
+  border:solid 4px;
+  border-color:black;
+}
+img {
+  width: 100px;
+  }
+body{
+    background-image: url("https://live.staticflickr.com/4519/37546460594_ff1b48298f_b.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+  width:100%;
+  max-width: 960px;
+  margin:0 auto;
+}
+nav{
+  width:100%
+  margin: 20px 0;
+}
+nav ul{
+  width:100%
+  list-style: none;
+  margin:o;
+  padding:0;
+}
+
+nav ul li {
+  width: 20%;
+  float: left;
+}
+nav ul li a {
+  display: block;
+  width:100%;
+}
+.floatr{
+  float:right;
+  width:40%;
+  hight:200px
+}
+.floatl{
+  float:left;
+  width:40%;
+  hight:200px
+}

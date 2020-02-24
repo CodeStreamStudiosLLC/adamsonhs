@@ -1,0 +1,46 @@
+body{
+  width: 100%;
+  max-width:960px;
+  margin:0 auto;
+  background-color:cadetblue;
+}
+nav{
+  width: 100%;
+  margin: 20px 0;
+  color:white;
+  
+}
+nav ul{
+  width:100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li{
+  width:20%;
+  float:left;
+}
+nav ul li a{
+  display:block;
+  width: 100%;
+  border-style:solid;
+  border-color:black;
+  background-color:crimson;
+}
+img{
+  width:400px;
+}
+section{
+  border: solid 4px;
+  border-color: black;
+}
+.floatr{
+  float: right;
+    width:40%;
+      height:200px;
+}
+.floatl {
+  float: left;
+    width:40%;
+  heigth:200px;
+}

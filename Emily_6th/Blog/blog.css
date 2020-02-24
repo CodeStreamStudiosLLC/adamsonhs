@@ -1,0 +1,40 @@
+body{
+  width: 100%;
+  max-width: 960px;
+  margins: 0 auto;
+}
+nav{
+  width: 100%;
+  max-width: 960px;
+  margins: 20%;
+}
+nav ul{
+  width: 100%;
+  list-style: none;
+}
+nav ul li{
+  width: 25%;
+  float: left;
+}
+nav ul li a{
+  display: block;
+}
+div{
+  float: right;
+  border: solid;
+  border-color: black;
+}
+.floatr{
+  float: right;
+  max-width: 100%;
+}
+img{
+  float: right;
+  max-width: 100%;
+}
+.floatl{
+  float: left;
+  width: 40%;
+  height: 200px;
+  margin: 20px;
+}
