@@ -726,7 +726,26 @@ a:visited {
 	float: left;
 	width: 50%;
 }
-
+.col-md-6:hover .overlay {
+	    opacity: 1;
+  }
+	.overlay {
+  position: absolute;
+  top: 5;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 20%;
+  width: 80%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #1F497D;
+  float:left;
+  margin-right: -15px;
+  margin-left: 25px;
+  margin-top: 50px;
+  border-radius: 6px;
+}
 .row:before {
 	display: table;
 	content: " ";
@@ -739,14 +758,28 @@ a:visited {
 .portfolio-item {
 	margin-bottom: 25px;
 }
-
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 .img-responsive {
 	display: block;
 	max-width: 100%;
 	height: 350px;
 	margin: 25px;
 }
-
+.text {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 .container {
 	margin-right: -15px;
 	margin-left: 25px;
